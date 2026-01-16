@@ -4,10 +4,8 @@
 
 int main () {
     auto entries = read_entries();
-    float average = cgpa_average_calculation(entries);
-
-    // Optional: Ergebnis ausgeben
-    std::cout << "Durchschnitt: " << average << std::endl;
+    total_credits_calc(entries);
+    average_calculation(entries);
 
     return 0;
 }
